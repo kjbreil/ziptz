@@ -1,3 +1,5 @@
+//go:generate go run generate.go
+
 // Package ziptz provides US zip code to IANA timezone lookups.
 package ziptz
 

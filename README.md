@@ -25,7 +25,7 @@ Invalid or unknown zip codes return empty string (or error for `Location`).
 ## Update Data
 
 ```bash
-./scripts/update-data.sh
+go generate
 ```
 
 Data source: [seanpianka/Zipcodes](https://github.com/seanpianka/Zipcodes) (MIT License)
